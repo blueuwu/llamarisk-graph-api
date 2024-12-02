@@ -42,7 +42,7 @@ Backend For the assessment, you can find the frontend repo [here](https://github
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/blueuwu/llamarisk-graph-api.git
    cd cryptocurrency-price-tracker
    ```
 
