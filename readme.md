@@ -80,8 +80,10 @@ query {
     dailyLow
   }
 }
+  ```
 
-Get specific currency:
+#### Get specific currency:
+  ``` graphql
 query {
   cryptocurrency(symbol: "CRV") {
     name
@@ -90,7 +92,11 @@ query {
     dailyLow
   }
 }
+```
 
 ## Testing
-Run the test suite using:docker-compose run web python manage.py test
+Run the test suite using:
+  ``` bash
+docker-compose run web python manage.py test
+  ```
 
